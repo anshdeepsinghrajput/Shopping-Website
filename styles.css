@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+    background: rgb(255,197,106);
+    background: linear-gradient(125deg, rgba(255,197,106,1) 36%, rgba(254,185,79,1) 77%, rgba(255,173,56,1) 80%, rgba(255,173,56,1) 94%);
+    /* new changes */
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 60px;
+    border-radius: 6px 6px 0 0;
+}
+
+.nav-section-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16%;
+    padding-left: 30px;
+}
+
+nav img{
+    width: 55px;
+    height: auto;
+}
+
+.nav-section-right{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.nav-section-right h3{
+    font-weight: 400;
+}
+
+.nav-section-right button{
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    width:90px;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-container{
+    background-image: url(./images/magnificent-woman-long-bright-skirt-dancing-studio-carefree-inspired-female-model-posing-with-pleasure-yellow.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* new changes */
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 0 0 6px 6px ;
+}
+
+.main-text{
+    width: 50%;
+    height: 570px;
+    margin: auto;
+    margin-left: 180px;
+    padding-top: 100px;
+}
+
+.main-text h1{
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.main-text h6{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.main-text button{
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    width:120px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.main-text h1 span{
+    background: rgb(255,255,255);
+    background: linear-gradient(125deg, rgba(255,255,255,1) 13%, rgba(255,255,255,1) 36%, rgba(255,255,255,1) 62%, rgba(255,255,255,1) 94%);
+}
+
+.logo{
+    width: 80%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.logo img{
+    height: auto;
+    width: 100px;
+}
+
+
+.new-arrivals{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 6px;
+    /* background-color: #ff7295 ; */
+    background: rgb(140,255,255);
+    background: linear-gradient(0deg, rgba(140,255,255,1) 0%, rgba(182,255,255,1) 26%, rgba(135,255,148,1) 72%, rgba(109,255,146,1) 100%);
+    padding-bottom: 50px;
+    /* #9fe2f9  */
+}
+
+.new-arrivals h2{
+    padding-left:50px;
+    padding-top: 40px;
+}
+
+.cloth-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 40px;
+    padding-left: 75px;
+}
+
+.cloth-grid img{
+    height: auto;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.clothing h4{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.clothing a{
+    text-decoration: none;
+    color: #6b6969 ;
+}
+
+.clothing .bi-arrow-right{
+    margin-left: 90px;
+    color: #6b6969 ;
+    font-size: 20px;
+    cursor: pointer;
+} 
+
+.payday{
+    background-image: url(./images/payday-girl.jpeg) ;
+    background-position: center;
+    background-size: contain;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 70px;
+    border-radius: 6px;
+    margin-bottom: 80px;
+}
+
+.payday-text{
+    height: 690px;
+    width: 95%;
+    padding-left: 65%;
+    padding-top: 10%;
+}
+
+.payday-text h1{
+    font-size: 50px;
+}
+
+.payday-text h1:first-child{
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.payday-text h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.payday-text h2{
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.payday-text p{
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.payday-text button{
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    width:120px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.young{
+    width: 80%;
+    margin-left: 10%;
+    background-color: #f7926a;
+    border-radius: 6px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+}
+
+.young h2{
+    padding-left: 135px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.young-img{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 50px
+}
+
+.img-1{
+    width: 450px;
+    height: 315px;
+    border-radius: 8px;
+}
+
+.img-2{
+    width: 450px;
+    height: 315px;
+    border-radius: 8px;
+}
+
+.young h4{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.young a{
+    text-decoration: none;
+    color: #6b6969 ;
+}
+
+.young .bi-arrow-right{
+    margin-left: 220px;
+    color: #6b6969 ;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 6px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.footer-text{
+    padding-top: 80px;
+    padding-left: 100px;
+    width: 35%;
+}
+
+.footer-text h2{
+    line-height: 40px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.footer-text p{
+    color: #6b6969;
+    margin-bottom: 15px;
+}
+
+.footer-text button{
+    margin: 7px;
+    border-radius: 4px;
+    border: 1px solid black;
+    width: 140px;
+    font-size: 10px;
+}
+
+.footer-text .bi{
+    font-size: 25px;
+    margin-right: 5px;
+    margin-top: 50px;
+}
+
+.footer-text button{
+    font-size: 18px;
+    font-weight: 400;
+    height: 45px;
+}
